@@ -1,0 +1,42 @@
+.btn {
+ width: 90%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: #615a59;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #fcf8f7;
+  cursor: pointer;
+  outline: none;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: monospace, cursive, Papyrus;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #fcf8f7;
+ 
+  background-size:120px,160px;
+}
+#main-holder {
+  width: 90%;
+  height: 95%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #615a59;
+
+  border-radius: 7px;
+  box-shadow: 0px 0px 3px 2px;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.add {color: #615a59;}
+.view {color: #615a59;}
+.update {color: #615a59;}
+.delete {color: #615a59;}
